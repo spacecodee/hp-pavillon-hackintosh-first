@@ -1506,7 +1506,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 alcid=11 -wegnoegpu -igfxblr -igfxblt</string>
+				<string>keepsyms=1 alcid=11 -wegnoegpu -igfxblr -igfxblt</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
