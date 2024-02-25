@@ -86,6 +86,14 @@
                     <key>Path</key>
                     <string>SSDT-SBUS-MCHC.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>SSDT-GPI0.aml</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-GPI0.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -381,6 +389,36 @@
                     <data>AAAAAA==</data>
                     <key>Replace</key>
                     <data>IgAAeQA=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>Change _OSI to XOSI</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>X09TSQ==</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>WE9TSQ==</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -973,6 +1011,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RtWlanU.kext</string>
+                    <key>Comment</key>
+                    <string>V1830.32.b27</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RtWlanU</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RtWlanU1827.kext</string>
+                    <key>Comment</key>
+                    <string>V1827.4.b36</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RtWlanU1827</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
